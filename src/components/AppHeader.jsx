@@ -25,6 +25,9 @@ function AppHeader() {
                         <Link className="nav-link" to="/farmacia-turno">
                             Farmacia de Turno
                         </Link>
+                        <Link className="nav-link" to="/mercadopublico">
+                            Mercado Público
+                        </Link>
                     </div>
                 </div>
             </div>
