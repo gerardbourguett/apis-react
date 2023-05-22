@@ -6,6 +6,7 @@ import FarmaciaTurno from './components/FarmaciaTurno';
 import AppFooter from './components/AppFooter';
 import Inicio from './components/Inicio';
 import MercadoPublico from './components/MercadoPublico';
+import MercadoPublicoDos from './components/MercadoPublicoDos';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path="/farmacias" element={<Farmacias />} />
           <Route path="/farmacia-turno" element={<FarmaciaTurno />} />
           <Route path="/mercadopublico" element={<MercadoPublico />} />
+          <Route path="/mercadopublicodos" element={<MercadoPublicoDos />} />
         </Routes>
         <AppFooter />
       </div>

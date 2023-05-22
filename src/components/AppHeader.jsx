@@ -28,6 +28,9 @@ function AppHeader() {
                         <Link className="nav-link" to="/mercadopublico">
                             Mercado Público
                         </Link>
+                        <Link className="nav-link" to="/mercadopublicodos">
+                            Mercado Público 2
+                        </Link>
                     </div>
                 </div>
             </div>
